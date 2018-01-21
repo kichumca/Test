@@ -10,9 +10,9 @@ private class Account_Test {
             acc.NumberOfEmployees=600;
             listAcc.add(acc);
         }
-        Test.startTest();
-        insert listAcc;
-        Test.stopTest();
+       // Test.startTest();
+        //insert listAcc;
+       // Test.stopTest();
         
         List<Account> accList =[Select Id,Name,AnnualRevenue,NumberOfEmployees from Account where Name != NULL];
         
